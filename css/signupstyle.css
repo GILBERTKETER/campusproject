@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 10px auto;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../image/homess.jpg") no-repeat;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 500px;
+    background: rgba(0,0,0,0.8);
+    height: 800px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 2px gold;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+
+.forms input{
+    
+    margin-top: 30px;
+    margin-left: 12px;
+    text-align: center;
+    padding: 10px;
+    width:90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid silver;
+}
+.logo{
+    width: 80px;
+    border-radius: 80px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 41%;
+}
+h2{
+    color: aqua;
+    text-align: center;
+    
+}
+.gender h1{
+    position: absolute;
+    padding-top: 5px;
+    line-height: 30px;
+    padding-left: 0px;
+    margin-left: 0%;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-size: small;
+    text-align: center;
+    width: 180px;
+   text-decoration: underline;
+
+}
+.gender{
+    line-height: 80px;
+    color: gold;
+    padding-left: 10px;
+    margin-left: 30%;
+    width: 300px;
+    bottom: 10px;
+    padding-top: 10px;
+}
+
+.country h4{
+
+    font-size: 25px;
+    line-height: 40px;
+    color: gold;
+    margin-left: 7.2%;
+    width: 100px;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.country select{
+
+   
+    position: absolute;
+    padding-top: 10px;
+    line-height: 10px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    border-bottom: 1px solid silver;
+    text-align: center;
+    color: silver;
+    margin-left: 6.5%;
+    width: 250px;
+    background: transparent;
+}
+.country option{
+    color: gold;
+    background: black;
+    border-radius: 10px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    flex-direction:row;
+    width: 500px;
+    
+
+
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background: transparent;
+    color: aqua;
+    border: 1px solid gold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding: 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    #menu-btn{
+        display: initial;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:115%; right: 2rem;
+        border-radius: .5rem;
+        box-shadow: var(--box-shadow);
+        width: 30rem;
+        border: var(--border);
+        background: #fff;
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top right;
+        transition: none;
+    }
+
+    .header .navbar.active{
+        transform: scale(1);
+        opacity: 1;
+        transition: .2s ease-out;
+    }
+
+    .header .navbar a{
+        font-size: 2rem;
+        display: block;
+        margin:2.5rem;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

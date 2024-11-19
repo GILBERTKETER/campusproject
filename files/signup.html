@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon//favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <link rel="stylesheet" href="../css/signupstyle.css">
+    <script src="../js/script.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="forms">
+            <form>
+                <img src="../image/contactlogo.png" class="logo">
+                <h2>Sign Up Here</h2>
+                <div class="inputs">
+                    <input type="text" id = "fname" name="fname" placeholder="First Name" required><br>
+                    <input type="text" id = "lname" name="lname" placeholder="Last Name Name" required><br>
+                    <input type="number" id = "phone"name="phone" placeholder="Phone No" required><br>
+                    <input type="email" id = "email" name="mail" placeholder="Email Id" required><br>
+                    <input type="password" id = "pass" name="pass" placeholder="password" required><br>
+                    <input type="password" id = "cpass" name="confpass" placeholder="Confirm password">
+
+                </div>
+               
+            </form>
+            
+    
+        </div>
+        <div class="gender">
+            <h1 style="color:skyblue;">Select your Gender:</h1>
+            <input type="radio" id="male" name="radio">
+            <label for="male">Male</label>
+    
+            <input type="radio" id="female" name="radio">
+            <label for="female">Female</label>
+    
+            <input type="radio" id="other" name="radio">
+            <label for="other">Other</label>
+        </div>
+      
+        <div class="country">
+            <h4>Country:</h4>
+            <select >
+            <option value="Kenya">KEN</option>
+            <option value="Uganda">UG</option>
+            <option value="Tanzania">TZ</option>
+            <option value="Zimbabwe">ZMW</option>
+            <option value="USA">USA</option>
+            <option value="Germany">GER</option>
+            <option value="Canada">CAN</option>
+            <option value="Ethiopia">ETH</option>
+            <option value="Algeria">ALG</option>
+            <option value="Sweden">SWE</option>
+            <option value="India">IND</option>
+            <option value="South Africa">SA</option>
+            <option value="Djibouti">DJ</option>
+            
+            </select>
+
+        </div>
+        <br><br><br><br>
+        <div class="btns">
+            <button type="button" id="signup" onclick="myFunc()">Sign Up</button>
+            <button type="reset" id="reset">Reset</button>
+            <a href="loginpage.html">
+                <button type="button" id="signin">Sign In</button>
+            </a>
+        </div>
+                 
+    </div>
+    
+    
+</body>
+</html>
